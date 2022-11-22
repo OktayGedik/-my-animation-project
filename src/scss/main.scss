@@ -1,0 +1,27 @@
+// Main scss file
+// ------------------------------------
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,400&family=Satisfy&display=swap");
+
+// ------------------------------------
+// bootstrap customize
+@import "custom-bootstrap";
+@import "variables";
+
+// fontawesome
+// @import "@/icons/scss/fontawesome.scss";
+// @import "@/icons/scss/regular.scss";
+// @import "@/icons/scss/solid.scss";
+// @import "@/icons/scss/brands.scss";
+// ------------------------------------
+@import "mixins";
+// ------------------------------------
+@import "base";
+@import "helpers";
+
+// // ------------------------------------
+// @import "partials/header";
+// @import "partials/header-alt";
+// @import "partials/footer";
+// @import "partials/featured-products";
+// @import "partials/deals-of-week";

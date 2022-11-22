@@ -1,0 +1,83 @@
+// autoprefixer
+// @mixin bg-cover() {
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+// }
+
+// @mixin bg-color-opacity-rgb($r, $g, $b, $opacity) {
+//   background-color: rgba($r, $g, $b, $opacity);
+// }
+
+// @mixin bg-color-opacity-hex($color, $opacity) {
+//   background-color: rgba($color, $opacity);
+// }
+
+// // size
+// @mixin size($width, $height) {
+//   width: $width;
+//   height: $height;
+// }
+
+// @mixin size-full() {
+//   @include size(100%, 100%);
+// }
+
+// @mixin size-full-viewport() {
+//   @include size(100vw, 100vh);
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+// }
+
+// @mixin square($size) {
+//   @include size($size, $size);
+// }
+
+// @mixin circle($size) {
+//   @include square($size);
+//   border-radius: 50%;
+// }
+
+// @mixin linear-gradient-stripes($color: $primary, $angle: 135deg) {
+//   background-image: linear-gradient(
+//     $angle,
+//     lighten($color, 5%) 35%,
+//     lighten($color, 6%) 35%,
+//     lighten($color, 6%) 40%,
+//     lighten($color, 7%) 40%,
+//     lighten($color, 7%) 45%,
+//     lighten($color, 8%) 45%,
+//     lighten($color, 8%) 50%,
+//     lighten($color, 9%) 50%,
+//     lighten($color, 9%) 55%,
+//     lighten($color, 10%) 55%,
+//     lighten($color, 10%) 60%,
+//     lighten($color, 11%) 60%,
+//     lighten($color, 11%) 65%,
+//     lighten($color, 12%) 65%,
+//     lighten($color, 12%) 100%
+//   );
+// }
+
+// @mixin linear-gradient($color1: $primary, $color2: $secondary, $angle: 135deg) {
+//   background: linear-gradient(
+//     $angle,
+//     rgba($color1, 0.95) 35%,
+//     $color1 35%,
+//     $color2 65%,
+//     rgba($color2, 0.95) 65%
+//   );
+// }
+
+@mixin linear-gradient($color, $color1, $color2, $angle) {
+  background: linear-gradient(
+    $angle,
+    rgba($color, 0.8) 15%,
+    $color 20%,
+    rgba($color1, 0.5) 35%,
+    $color1 70%,
+    rgba($color2, 0.6) 75%,
+    $color2 90%
+  );
+} ;

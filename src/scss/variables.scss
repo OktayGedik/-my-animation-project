@@ -1,0 +1,55 @@
+// Fonts
+// -------------------------
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-handwritten: "Satisfy", cursive;
+$font-size-base: 1.125rem;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$line-height-base: 1.5;
+
+// Colors
+// -------------------------
+// global colors
+$brown: #594838;
+$cream: #e2d9cf;
+$green: #14401f;
+$red: #8c3623;
+$blue: #0984e3;
+$mint: #00b894;
+$apple: #6ab04c;
+$turquoise: #00cec9;
+$orange: #e17055;
+$yellow: #fdcb6e;
+$pink: #e84393;
+$purple: #3b2559;
+$patrol: #265d73;
+
+$light: #f7f7f7;
+$dark: #060d0b;
+
+$ballerina: #c8d6e5;
+$imperial: #222f3e;
+
+$primary: $blue;
+$secondary: $apple;
+$danger: $red;
+$warning: $yellow;
+$success: $apple;
+$info: $blue;
+
+$prefix: "m2-";
+$spacer: 1rem;
+$border-width: $spacer * 0.125;
+
+$box-shadow: 0 0.5rem 1rem rgba($dark, 0.175);
+
+// scss-docs-start border-radius-variables
+$border-radius: $spacer * 0.75 !default;
+// $border-radius-sm: $border-radius;
+// $border-radius-lg: $border-radius;
+// $border-radius-xl: $spacer !default;
+// $border-radius-2xl: $spacer * 2 !default;
+// $border-radius-pill: $spacer * 50 !default;
+
+// $component-active-color: $light;
+// $component-active-bg: $primary;

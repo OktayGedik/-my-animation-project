@@ -1,0 +1,58 @@
+// .bg-color-harley {
+//   @include bg-color-opacity-rgb(194, 54, 22, 1);
+// }
+
+// .bg-color-harley-extra-light {
+//   @include bg-color-opacity-hex(#c23616, 0.35);
+// }
+
+// .bg-color-harley-light {
+//   @include bg-color-opacity-rgb(194, 54, 22, 0.5);
+// }
+
+// .full-width {
+//   @include size-full-viewport();
+//   @extend .bg-color-harley-extra-light;
+// }
+
+// .square {
+//   @include square(10rem);
+//   @extend .bg-color-harley-extra-light;
+// }
+
+// .circle {
+//   @include circle(10rem);
+//   @extend .bg-color-harley-extra-light;
+// }
+
+// .bg-gradient {
+//   @include linear-gradient($primary, $secondary, calc(180deg + 27deg));
+// }
+
+// .bg-gradient-alt {
+//   @include linear-gradient($secondary, $primary, calc(180deg + 27deg));
+// }
+
+// .bg-primary-gradient-stripes {
+//   @include linear-gradient-stripes($primary, 225deg);
+// }
+
+// .bg-secondary-gradient-stripes {
+//   @include linear-gradient-stripes($secondary, calc(180deg + 27deg));
+// }
+
+.bg-primary-gradient-transitive {
+  @include linear-gradient($primary, $secondary, $red, 135deg);
+}
+
+.getir {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: aquamarine;
+  text-align: center;
+}
